@@ -9,7 +9,7 @@
     ${2:directive}.\$inject = [${3/(\$(\w+)|\w+)/'$1'/g}];
 
     /* @ngInject */
-    function ${2:directive} (${3:dependencies}) {
+    function ${2:directive}(${3:dependencies}) {
         // Usage:
         //
         // Creates:
@@ -30,11 +30,11 @@
     }
 
     /* @ngInject */
-    function ${4:Controller} () {
+    function ${4:Controller}() {
 
     }
 })();
 ]]></content>
     <tabTrigger>ngdirective</tabTrigger>
-    <scope>source.js</scope>
+    <scope>text.plain, source.js</scope>
 </snippet>
